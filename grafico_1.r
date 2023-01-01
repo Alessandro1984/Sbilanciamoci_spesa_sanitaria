@@ -1,4 +1,4 @@
-source("Health/dati.r")
+source("dati.r")
 
 # Valori Italia 2001-2021
 df_gov_ITA <- df_gov %>% 
@@ -68,8 +68,7 @@ p1 <- plot_ly() %>%
 
 p1
 
-
 # orca(
 #   p1,
-#   file = "Health/p1.svg"
+#   file = "Immagini/p1.svg"
 # )

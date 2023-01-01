@@ -1,4 +1,4 @@
-source("Health/dati.r")
+source("dati.r")
 
 df_gov_minmax <- df_gov %>% 
   rename(value = ObsValue,
@@ -59,7 +59,7 @@ p2 <- plot_ly() %>%
 
 p2
 
-orca(
-  p2,
-  file = "Health/p2.svg"
-)
+# orca(
+#   p2,
+#   file = "Immagini/p2.svg"
+# )
